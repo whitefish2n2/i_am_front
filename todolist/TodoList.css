@@ -1,0 +1,53 @@
+html{
+    background : linear-gradient(#fff,#ffedcb);
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+li{
+    width: 100%;
+}
+#Head{
+    width: 100%;
+    height: 20%;
+}
+#Input{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+#InputValue{
+    background : linear-gradient(to right, #fff,#fff,#ff967e);
+    font-size: 20px;
+    width: 40%;
+}
+#adder{
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #bcffa7;
+    cursor: pointer;
+    border: 0px;
+}
+#adder:hover{
+    background-color: #92be86;
+}
+#adder:active{
+    background-color: #5c7955;
+}
+#Todo{
+    list-style: none;
+}
+#Content{
+    background-color: #ffedcb;
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px;
+}
+#Todo{
+    display: flex;
+    justify-content: center;
+}

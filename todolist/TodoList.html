@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasaeng's_Todo_List</title>
+    <link rel="stylesheet" href="TodoList.css" />
+  </head>
+  <body>
+    <div id="Head">
+      <h1>오늘은 뭘 하고 싶으세요?</h1>
+      <hr />
+    </div>
+    <div id="Input">
+      <input type="text" id="InputValue" placeholder="할 일을 입력하세요." autofocus autocomplete="off" />
+      <button type="button" id="adder" onclick="add()">추가하기</button>
+    </div>
+    <div>
+      <ul id="Todo">
+        <li><div id="Content"></div></li>
+      </ul>
+    </div>
+    <script src="TodoList.js"></script>
+  </body>
+</html>
